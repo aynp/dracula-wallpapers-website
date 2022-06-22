@@ -1,0 +1,30 @@
+nav {
+  padding-top: 2rem;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(var(--rgbForeground));
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav ul li a:hover {
+  border-color: rgb(var(--rgbCyan));
+  color: rgb(var(--rgbCyan));
+}

@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --rgbCyan: 139, 233, 253;
+  --rgbGreen: 80, 250, 123;
+  --rgbOrange: 255, 184, 108;
+  --rgbPink: 255, 121, 198;
+  --rgbPurple: 189, 147, 249;
+  --rgbYellow: 241, 250, 140;
+  --rgbBackground: 40, 42, 54;
+  --rgbForeground: 248, 248, 242;
+
+  --title: "Abril Text";
+  --body: "Source Sans Pro";
+  --mono: "Fira Code";
+
+  --alpha: 0.7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #383a59;
+  color: rgb(var(--rgbForeground));
+  font-family: var(--body);
+  font-weight: 300;
 }
