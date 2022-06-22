@@ -1,28 +1,8 @@
-:root {
-  --rgbCyan: 139, 233, 253;
-  --rgbGreen: 80, 250, 123;
-  --rgbOrange: 255, 184, 108;
-  --rgbPink: 255, 121, 198;
-  --rgbPurple: 189, 147, 249;
-  --rgbYellow: 241, 250, 140;
-  --rgbBackground: 40, 42, 54;
-  --rgbForeground: 248, 248, 242;
-
-  --title: "Abril Text";
-  --body: "Source Sans Pro";
-  --mono: "Fira Code";
-
-  --alpha: 0.7;
-}
-
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: #383a59;
-  color: rgb(var(--rgbForeground));
-  font-family: var(--body);
-  font-weight: 300;
+  background-color: #282a36;
 }

@@ -1,7 +1,8 @@
+import "./Tab.css";
 import { useParams } from "react-router-dom";
-import Card from "./components/Card";
+import Card from "./Card";
 
-import data from "./walls.json";
+import data from "../walls.json";
 
 export default function Tab() {
   const params = useParams();
@@ -12,9 +13,9 @@ export default function Tab() {
   console.log("TAB RENDERED");
 
   return (
-    <div>
-      <h1>{name}</h1>
-      <div>
+    <div className="tab">
+      <h1 className="tab-title">{name}</h1>
+      <div className="card-container">
         {walls.map((wall) => (
           <Card name={wall.name} url={wall.url} />
         ))}

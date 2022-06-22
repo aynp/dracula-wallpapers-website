@@ -1,0 +1,16 @@
+.tab {
+  background-color: #282a36;
+}
+
+.tab-title {
+  color: #f8f8f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}

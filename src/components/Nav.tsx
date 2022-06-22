@@ -5,6 +5,9 @@ import data from "../walls.json";
 export default function Nav() {
   return (
     <nav>
+      <span className="nav-title">
+        <Link to="/">DTW</Link>
+      </span>
       <ul>
         {data.map((item, index) => (
           <li key={item.name}>

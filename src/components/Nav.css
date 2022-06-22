@@ -1,5 +1,17 @@
 nav {
-  padding-top: 2rem;
+  padding: 10px;
+  display: flex;
+}
+
+.nav-title a {
+  margin-left: 10px;
+  font-weight: 700;
+  color: #f8f8f2;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  transition: none;
+  text-decoration: none;
 }
 
 nav ul {
@@ -16,7 +28,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: rgb(var(--rgbForeground));
+  color: #f8f8f2;
   font-size: 20px;
   font-weight: 400;
   border-bottom: 2px solid transparent;
@@ -25,6 +37,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  border-color: rgb(var(--rgbCyan));
-  color: rgb(var(--rgbCyan));
+  border-color: #8be9fd;
+  color: #8be9fd;
 }
