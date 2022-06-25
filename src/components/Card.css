@@ -22,9 +22,16 @@
   border-radius: 10px;
 }
 
+.card-info {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .wallpaper-title {
   font-size: 18px;
-  font-weight: 700;
   color: #f8f8f2;
   text-align: center;
 }
@@ -51,6 +58,8 @@
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
+
+  margin-left: 10px;
 }
 
 .download-btn:hover {
