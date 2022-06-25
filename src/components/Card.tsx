@@ -17,7 +17,7 @@ export default function Card({ name, urlhd, url4k }: ICard) {
             1080p
           </a>
           <a className="download-btn" href={url4k} download>
-            4k
+            4K
           </a>
         </div>
       </div>
