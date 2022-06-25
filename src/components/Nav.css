@@ -37,6 +37,7 @@ nav ul li a {
   font-weight: 400;
   border-bottom: 2px solid transparent;
   margin: 10px;
+  padding-right: 10px;
 }
 
 nav ul li a:hover {
