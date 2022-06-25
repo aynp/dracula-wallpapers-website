@@ -1,4 +1,4 @@
-# dracula-wallpapers-website
+# Dracula Wallpapers Website
 
 > Wallpapers based on the [Dracula Theme](https://draculatheme.com/).
 
