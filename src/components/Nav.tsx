@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <nav>
       <span className="nav-title">
-        <Link to="/">DTW</Link>
+        <Link to="/">DW</Link>
       </span>
       <ul>
         {data.map((item, index) => (
