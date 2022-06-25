@@ -17,7 +17,7 @@ export default function Tab() {
       <h1 className="tab-title">{name}</h1>
       <div className="card-container">
         {walls.map((wall) => (
-          <Card name={wall.name} url={wall.url} />
+          <Card name={wall.name} urlhd={wall.urlhd} url4k={wall.url4k} />
         ))}
       </div>
     </div>
