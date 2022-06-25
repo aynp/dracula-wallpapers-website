@@ -9,4 +9,5 @@ This repo contains the website I made for wallpapers in my repository [aynp/drac
 
 # TODO
 - [ ] Make website responsive.
+- [ ] Make fonts consistent.
 - [ ] Improve CSS.
