@@ -18,6 +18,21 @@ nav {
   text-decoration: none;
 }
 
+.nav-links a {
+  margin-left: 10px;
+  font-weight: 600;
+  color: #f8f8f2;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  transition: none;
+  text-decoration: none;
+}
+
+.nav-links img {
+  width: 1.5em;
+}
+
 nav ul {
   width: 100%;
   list-style: none;

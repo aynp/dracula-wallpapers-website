@@ -8,6 +8,11 @@ export default function Nav() {
       <span className="nav-title">
         <Link to="/">DW</Link>
       </span>
+      <span className="nav-links">
+        <a href="https://github.com/aynp/dracula-wallpapers-website">
+          <img src={process.env.PUBLIC_URL + '/github-logo.png'} alt="Github"/>
+        </a>
+      </span>
       <ul>
         {data.map((item, index) => (
           <li key={item.name}>
