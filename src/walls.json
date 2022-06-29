@@ -298,6 +298,16 @@
         "url4k": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/4k/Elementary%20OS%20(Purple).png"
       },
       {
+        "name": "Linux Mint (Green)",
+        "urlhd": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/Linux%20Mint%20(Green).png",
+        "url4k": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/4k/Linux%20Mint%20(Green).png"
+      },
+      {
+        "name": "Linux Mint (Monochrome)",
+        "urlhd": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/Linux%20Mint%20(Monochrome).png",
+        "url4k": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/4k/Linux%20Mint%20(Monochrome).png"
+      },
+      {
         "name": "Not Ubuntu (Blue)",
         "urlhd": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/Not%20Ubuntu%20(Blue).png",
         "url4k": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/4k/Not%20Ubuntu%20(Blue).png"
@@ -338,14 +348,14 @@
         "url4k": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/4k/Ubuntu%20(White).png"
       },
       {
-        "name": "Windows (Multi Colour)",
-        "urlhd": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/Windows%20(Multi%20Colour).png",
-        "url4k": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/4k/Windows%20(Multi%20Colour).png"
+        "name": "Windows (Blue)",
+        "urlhd": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/Windows%20(Blue).png",
+        "url4k": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/4k/Windows%20(Blue).png"
       },
       {
-        "name": "Windows (Single Colour)",
-        "urlhd": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/Windows%20(Single%20Colour).png",
-        "url4k": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/4k/Windows%20(Single%20Colour).png"
+        "name": "Windows",
+        "urlhd": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/Windows.png",
+        "url4k": "https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/OS/4k/Windows.png"
       },
       {
         "name": "openSUSE",
