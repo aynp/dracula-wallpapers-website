@@ -7,8 +7,14 @@
 
 body {
   background-color: #282a36;
+  
 }
-
+.body::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
 .tab-title {
   font-family: "Joan", serif;
 }
