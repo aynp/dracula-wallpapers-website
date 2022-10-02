@@ -11,6 +11,7 @@ specifiers:
   postcss: ^8.4.17
   react: 18.2.0
   react-dom: 18.2.0
+  tailwind-dracula: ^1.1.0
   tailwindcss: ^3.1.8
   typescript: 4.8.4
 
@@ -27,6 +28,7 @@ devDependencies:
   eslint: 8.24.0
   eslint-config-next: 12.3.1_ypn2ylkkyfa5i233caldtndbqa
   postcss: 8.4.17
+  tailwind-dracula: 1.1.0_tailwindcss@3.1.8
   tailwindcss: 3.1.8_postcss@8.4.17
   typescript: 4.8.4
 
@@ -2032,6 +2034,14 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: true
+
+  /tailwind-dracula/1.1.0_tailwindcss@3.1.8:
+    resolution: {integrity: sha512-LjU1df6WGS5eUwozdPtZ7jARojHYTIe6y1Gj5v2QNaNnMnLm7ipPtlIEGlNXXraWjVnWeRbLZl4vvr48mMFGxw==}
+    peerDependencies:
+      tailwindcss: 2.x || 3.x
+    dependencies:
+      tailwindcss: 3.1.8_postcss@8.4.17
     dev: true
 
   /tailwindcss/3.1.8_postcss@8.4.17:
