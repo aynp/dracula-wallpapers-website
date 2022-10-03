@@ -1,4 +1,4 @@
-nav {
+/* nav {
   position: fixed;
   padding: 10px;
   display: flex;
@@ -43,6 +43,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+  position: relative;
 }
 
 nav ul li a {
@@ -59,3 +60,24 @@ nav ul li a:hover {
   border-color: #8be9fd;
   color: #8be9fd;
 }
+
+nav ul li::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  background: #8be9fd;
+  margin: 3px;
+  margin-left: 8px;
+  margin-right: 10px;
+  opacity: 0;
+  transform: scaleX(0);
+  transition: 0.25s;
+}
+
+nav ul li a:hover:after {
+  transform: scaleX(1);
+  opacity: 1;
+} */
