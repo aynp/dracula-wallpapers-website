@@ -1,5 +1,5 @@
 import "./Nav.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import data from "../walls.json";
 import styled from "styled-components";
 
@@ -24,7 +24,13 @@ export default function Nav() {
       <NavMenu>
         {data.map((item, index) => (
           <NavEle key={item.name}>
-            <Link to={`/${index + 1}`}>{item.name}</Link>
+            <NavLink to={`/${index + 1}`}>
+              {({ isActive }) => (
+                <span className={isActive ? "active-style" : ""}>
+                  {item.name}
+                </span>
+              )}
+            </NavLink>
           </NavEle>
         ))}
       </NavMenu>
