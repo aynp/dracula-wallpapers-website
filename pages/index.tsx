@@ -14,14 +14,7 @@ const fwall = {
 
 const Home: NextPage = ({ categories }: any) => {
   return (
-    <Container>
-      <div className="categories grid grid-cols-3">
-        {categories.map((category: any) => (
-          <Link href={category.slug} key={category.name}>
-            {category.name}
-          </Link>
-        ))}
-      </div>
+    <Container categories={categories}>
       <div className="flex flex-col items-center">
         <div className="text-5xl font-bold p-10">Featured Wall</div>
         <div className="rounded bg-dracula-darker-600 p-4">

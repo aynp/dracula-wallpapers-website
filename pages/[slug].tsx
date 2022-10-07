@@ -3,9 +3,9 @@ import Container from '../components/Container';
 import { parseJSON } from '../lib/parseJSON';
 import Card from '../components/Card';
 
-const Category: NextPage = (category: any) => {
+const Category: NextPage = ({category, categories}: any) => {
   return (
-    <Container>
+    <Container categories={categories}>
       <h1 className="text-6xl font-bold text-center p-10">{category.name}</h1>
       <div className="flex flex-col justify-center items-start max-w-6xl mx-auto pb-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -37,7 +37,12 @@ export async function getStaticProps({ params }: any) {
     (item: any) => item.name.toLowerCase().replace(/ /g, '-') === params.slug
   );
 
-  return { props: category };
+  categories.map((item: any) => {
+    const name = item.name;
+    item.slug = name.toLowerCase().replace(/ /g, '-');
+  });
+
+  return { props: {category, categories} };
 }
 
 export default Category;
